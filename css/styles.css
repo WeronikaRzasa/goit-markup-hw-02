@@ -1,0 +1,11 @@
+body {
+        font-family: 'Roboto', sans-serif;
+    }
+.buttons {
+    background-color: #F5F4FA;
+}
+    .buttons :hover,
+    .button :focus {
+    color:#ffffff;
+    background-color:#2196f3;
+}
