@@ -27,6 +27,7 @@ body {
     list-style-type: none;
 }
 .navigations a{
+    color: var(--main-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
