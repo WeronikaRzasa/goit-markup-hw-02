@@ -6,16 +6,8 @@ body {
 :root {
     --brand-color: #2196F3;
     --background-color:#ffffff;
+    --main-text-color:#212121;
 }
-header {
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background-color: var(--background-color);
-}
-
 .logo {
     font-family: Raleway;
     font-weight: 700;
@@ -23,7 +15,7 @@ header {
     text-decoration: none;
 }
 .web-color1 {
-    color:#2196F3;
+    color:var(--brand-color);
 }
 .web-color2 {
     color:#000000;
@@ -67,13 +59,17 @@ header {
     background-color:var(--brand-color);
     cursor: pointer;
 }
+.images {
+    list-style-type: none;
+}
+.image-caption b {
+    font-weight: 700;
+    font-size: 18px;
+} 
+.image-caption span{
+    font-size: 16px;
+    color:#757575;
 
-footer {
-    background-color: #2F303A;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
 }
 .adress {
     color: #ffffff;
