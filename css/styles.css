@@ -5,26 +5,42 @@ body {
 
 :root {
     --brand-color: #2196F3;
-
+    --background-color:#ffffff;
+}
 .logo {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
+    text-decoration: none;
 }
-.web-color {
+.web-color1 {
     color:#2196F3;
 }
+.web-color2 {
+    color:#000000;
+}
+.social-links {
+    list-style-type: none;
 }
 .social-links a{
     font-weight: 500;
     font-size: 14px;
     text-decoration:none
+
 }
 .social-links a:hover,
 .social-links a:focus {
     color: var(--brand-color);
 }
-
+.contact {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.buttons {
+    list-style-type: none;
+}
 .buttons .button {
     background-color: #F5F4FA ;
 }
