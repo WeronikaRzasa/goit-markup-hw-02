@@ -7,6 +7,15 @@ body {
     --brand-color: #2196F3;
     --background-color:#ffffff;
 }
+header {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-color: var(--background-color);
+}
+
 .logo {
     font-family: Raleway;
     font-weight: 700;
@@ -28,8 +37,8 @@ body {
     text-decoration:none
 
 }
-.social-links a:hover,
-.social-links a:focus {
+.navigations a:hover,
+.navigations a:focus {
     color: var(--brand-color);
 }
 .contact {
@@ -47,6 +56,9 @@ body {
 }
 .buttons .button {
     background-color: #F5F4FA ;
+    font-weight:500;
+    font-size: 16px;
+    border: none;
 }
 
 .buttons .button:hover,
@@ -54,4 +66,20 @@ body {
     color:#ffffff;
     background-color:var(--brand-color);
     cursor: pointer;
+}
+
+footer {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+}
+.adress {
+    color: #ffffff;
+    font-size: 14px;
+}
+.footer-contact {
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 14px;
 }
