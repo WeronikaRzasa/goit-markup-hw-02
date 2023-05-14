@@ -1,16 +1,29 @@
 body {
         font-family: 'Roboto', sans-serif;
+        color:#212121
     }
 
+:root {
+    --brand-color: #2196F3;
+
+}
+.social-links a{
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration:none
+}
+.social-links a:hover,
+.social-links a:focus {
+    color: var(--brand-color);
+}
 
 .buttons .button {
-    background-color: #F5F4FA;
-    color: #212121;
-    cursor: pointer;
+    background-color: #F5F4FA ;
 }
-   
+
 .buttons .button:hover,
 .buttons .button:focus {
     color:#ffffff;
-    background-color:#2196f3;
+    background-color:var(--brand-color);
+    cursor: pointer;
 }
