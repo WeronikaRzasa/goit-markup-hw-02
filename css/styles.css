@@ -133,3 +133,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
 }
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--brand-color);
+}
