@@ -6,7 +6,7 @@ body {
 :root {
     --brand-color: #2196F3;
     --negative-color: #ffffff;
-    --main-text-color:#212121;
+    --main-text-color: #212121;
     --secondary-text-color: #757575;
 
 }
@@ -72,6 +72,25 @@ body {
 .lorem-ipsum span{
     font-size: 14px;
     line-height: 1.71;
+    color:var(--secondary-text-color);
+}
+.headlines {
+    color:var(--main-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+.team-images {
+    list-style-type: none;
+}
+.team-images b{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.team-images span{
+    font-size: 16px;
+    line-height: 1.18;
     color:var(--secondary-text-color);
 }
 .buttons {
