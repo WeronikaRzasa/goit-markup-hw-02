@@ -12,6 +12,7 @@ body {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.19;
     text-decoration: none;
 }
 .web-color1 {
@@ -26,6 +27,7 @@ body {
 .navigations a{
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
     text-decoration:none
 
 }
@@ -37,6 +39,7 @@ body {
     color: #757575;
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
     text-decoration: none;
 }
 .contact:hover,
@@ -51,6 +54,7 @@ body {
     font-weight:500;
     font-size: 16px;
     border: none;
+    line-height: 1.62;
 }
 
 .buttons .button:hover,
@@ -65,17 +69,21 @@ body {
 .image-caption b {
     font-weight: 700;
     font-size: 18px;
+    line-height: 2;
 } 
 .image-caption span{
     font-size: 16px;
     color:#757575;
+    line-height: 1.87;
 
 }
 .adress {
     color: #ffffff;
     font-size: 14px;
+    line-height: 1.71;
 }
 .footer-contact {
     color:rgba(255, 255, 255, 0.6);
     font-size: 14px;
+    line-height: 1.71;
 }
