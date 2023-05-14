@@ -5,8 +5,10 @@ body {
 
 :root {
     --brand-color: #2196F3;
-    --background-color:#ffffff;
+    --negative-color: #ffffff;
     --main-text-color:#212121;
+    --secondary-text-color: #757575;
+
 }
 .logo {
     font-family: Raleway;
@@ -29,7 +31,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     text-decoration:none
-
 }
 .navigations a:hover,
 .navigations a:focus {
@@ -46,6 +47,33 @@ body {
 .contact:focus {
     color: var(--brand-color);
 }
+.main-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color:var(--negative-color);
+}
+.service-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    border: none;
+    background-color:var(--brand-color);
+    color:var(--negative-color);
+}
+.lorem-ipsum {
+    list-style-type: none;
+}
+.lorem-ipsum b{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.lorem-ipsum span{
+    font-size: 14px;
+    line-height: 1.71;
+    color:var(--secondary-text-color);
+}
 .buttons {
     list-style-type: none;
 }
@@ -56,10 +84,9 @@ body {
     border: none;
     line-height: 1.62;
 }
-
 .buttons .button:hover,
 .buttons .button:focus {
-    color:#ffffff;
+    color:var(--negative-color);
     background-color:var(--brand-color);
     cursor: pointer;
 }
@@ -75,7 +102,6 @@ body {
     font-size: 16px;
     color:#757575;
     line-height: 1.87;
-
 }
 .adress {
     color: #ffffff;
